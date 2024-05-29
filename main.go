@@ -57,6 +57,7 @@ func main() {
 
 		}
 	}
+	wg.Wait()
 }
 
 func greetUsers() {
